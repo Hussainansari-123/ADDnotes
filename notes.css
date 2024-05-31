@@ -1,0 +1,51 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+.main{
+   min-height:100vh;
+    width:100%;
+    background-color:aqua;
+    display: flex;
+    flex-wrap: wrap;
+}
+#addnote{
+    position: fixed;
+    right:10px;
+    top:10px;
+    background-color:rgb(13, 13, 47);
+    color:white; 
+}
+#addnotes{
+    margin:0px;
+}
+.notes{
+    height:350px;
+    width:350px;
+    background-color:white;
+    margin:20px 10px;
+    
+}
+.navbar{
+    display:flex;
+    justify-content:flex-end;
+    color:white;
+    height:2rem;
+    width:100%;
+    background-color:rgb(13, 13, 47);
+}
+i{
+    margin:10px;
+    cursor:pointer;
+}
+textarea:focus{
+    border:0;
+    outline:none;
+}
+textarea{
+    border:none;
+    width:100%;
+    height:100%;
+    resize:none;
+}
